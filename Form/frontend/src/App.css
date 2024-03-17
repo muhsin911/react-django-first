@@ -1,0 +1,10 @@
+.custom-link {
+  width: 100px;
+  margin-right: 5px;
+  transition: transform 0.2s, color 0.2s; /* Smooth transition for transform and color */
+}
+
+.custom-link:hover {
+  transform: scale(0.95); /* Diminish size */
+  color: #007bff; /* Bootstrap "primary" color for active text, adjust as needed */
+}
